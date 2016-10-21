@@ -1,0 +1,74 @@
+.type-34 {
+  background-color: #f9f9f9;
+  font: 13px/18px Georgia, "Times New Roman";
+}
+.type-34 a {
+  color: black;
+}
+.type-34 .title-module {
+  margin-bottom: 30px;
+  font: normal 20px/46px Georgia;
+  color: #505050;
+  text-transform: uppercase;
+  position: relative;
+  border-bottom: 2px solid #aeaba3;
+}
+.type-34 .title-module::after {
+  content: "";
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 1px;
+  border-bottom: 1px solid #bdbcbc;
+}
+.type-34 .price {
+  text-align: center;
+  font-family: "LMRoman10Regular";
+  color: #c5988b;
+}
+.type-34 .check-box {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #d8d8d8;
+  position: absolute;
+  margin: 4px;
+  cursor: pointer;
+}
+.type-34 .check-box .checked {
+  margin: 1px;
+  background-color: white;
+  width: 12px;
+  height: 12px;
+}
+.type-34 .check-box .checked.active {
+  background-color: lightgray;
+}
+.type-34 ul {
+  list-style: none;
+  padding: 0;
+}
+.type-34 a.button:hover {
+  background-color: #e17365;
+}
+.type-34 a.button {
+  background-color: #7a7975;
+  color: white;
+}
+.type-34 a,
+.type-34 .button {
+  transition: all .2s ease-in-out;
+}
+.type-34 .ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.type-34 input,
+.type-34 button,
+.type-34 textarea,
+.type-34 select {
+  font-size: 100%;
+}

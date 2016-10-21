@@ -1,0 +1,100 @@
+#pk_customlinks {
+    float: left
+}
+#pk_customlinks ul {
+    list-style: none
+}
+#pk_customlinks li {
+    position: relative;
+    padding: 0 10px;
+    margin-right: 15px
+}
+#pk_customlinks li a {
+    color: #999;
+    font-family: Verdana;
+    line-height: 36px;
+    font-size: 13px
+}
+#pk_customlinks .pk_account li a {
+    line-height: 18px
+}
+#pk_customlinks li:hover a {
+    color: #FFF
+}
+#pk_customlinks li a:hover {
+    text-decoration: none;
+    color: #bbb
+}
+#pk_customlinks .dd_container {
+    display: none;
+    position: absolute;
+    top: 36px;
+    left: 0;
+    border: none;
+    width: 250px;
+    text-align: left;
+    z-index: 9999
+}
+#pk_customlinks>ul>li:hover * {
+    color: #FFF
+}
+#pk_customlinks>ul>li>a:hover {
+    color: #fff!important
+}
+#pk_customlinks li .indent {
+    padding: 10px;
+    color: #fff
+}
+#pk_customlinks li ul {
+    list-style-type: none;
+    margin: 0
+}
+#pk_customlinks li span {
+    line-height: 20px;
+    display: inline-block;
+    margin-bottom: 5px
+}
+#pk_customlinks li a span {
+    line-height: 14px;
+    margin: 0
+}
+#pk_customlinks li ul li,
+#pk_customlinks li dl dt {
+    width: auto;
+    display: block;
+    padding: 5px 0;
+    margin: 5px 0 0 0!important;
+    float: none;
+    overflow: hidden;
+    position: relative
+}
+#pk_customlinks .pk_account:hover .dd_container{
+    display: block;
+    position: absolute;
+    top: 36px;
+    left: 0;
+    border: none;
+    width: 250px;
+    text-align: left;
+    z-index: 9999
+}
+#pk_customlinks .pk_wishlist:hover .dd_container{
+    display: block;
+    position: absolute;
+    top: 36px;
+    left: 0;
+    border: none;
+    width: 250px;
+    text-align: left;
+    z-index: 9999
+}
+#pk_customlinks .pk_watchlist:hover .dd_container{
+    display: block;
+    position: absolute;
+    top: 36px;
+    left: 0;
+    border: none;
+    width: 250px;
+    text-align: left;
+    z-index: 9999
+}
