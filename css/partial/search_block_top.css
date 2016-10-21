@@ -1,0 +1,37 @@
+#search_block_top {
+    position: absolute;
+    top: 97px;
+    right: 0;
+    border: 1px solid #e7e2e2;
+    height: 34px;
+    width: 230px;
+}
+#search_block_top #search_query_top {
+    width: 100%;
+    height: 100%;
+    border: none;
+    height: auto;
+    position: absolute;
+    padding: 7px 0;
+    text-indent: 10px;
+    color: #8a8989;
+    font: normal 13px/20px Verdana;
+    outline: 0;
+    background-color: transparent;
+    z-index: 1;
+}
+#search_block_top .searchbutton {
+    cursor: pointer;
+    color: #ccc;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    z-index: 2;
+}
+#shopping_cart .svgic.main_color, #white_bg .searchbutton .svgic.main_color {
+    color: #bbb;
+}

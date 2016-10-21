@@ -1,0 +1,25 @@
+body .flexmenu ul.left-section-products {
+    width: 152px;
+    margin: 0 auto;
+}
+body .flexmenu ul.left-section-products li {
+    margin-bottom: 25px;
+    text-align: center;
+}
+.flexmenuitem .li-indent {
+    padding: 0;
+}
+body .flexmenu ul.left-section-products li a {
+    padding: 0;
+}
+body .flexmenu ul.left-section-products li a.product-image-link {
+    display: block;
+    height: auto;
+    line-height: 12px;
+}
+body .flexmenu ul.left-section-products li a img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #dedede;
+    margin-bottom: 10px;
+}

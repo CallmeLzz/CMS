@@ -1,0 +1,136 @@
+.type-3 .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+.type-3 h2 {
+  font-size: 44px;
+  line-height: 1.15;
+  margin: 0 0 12px;
+  color: #344150;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+.type-3 .heading-byline:last-child {
+  margin-bottom: 0;
+}
+.type-3 .heading-byline {
+  color: #959ca4;
+  font-size: 18px;
+  font-weight: 400;
+}
+.type-3 p {
+  margin: 0 0 12px;
+}
+.type-3 .pd-title h3 {
+  font-size: 18px;
+  color: #67707c;
+  text-decoration: none;
+  line-height: normal;
+  padding-bottom: 46px;
+  text-align: center;
+}
+.type-3 .latest-pd .row {
+  padding-bottom: 24px;
+}
+.type-3 .row {
+  margin-left: -24px;
+  margin-right: -24px;
+}
+.type-3 .pd-list-item {
+  padding-bottom: 24px;
+}
+.type-3 .pd-list-item {
+  padding: 0;
+  position: relative;
+}
+.type-3 .pd-list-item:hover .pd-screen-img img {
+  opacity: .7;
+}
+.type-3 .pd-list-item .pd-title h3 a {
+  color: #344150;
+  display: inline-block;
+  padding-top: 6px;
+  vertical-align: middle;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  padding-left: 60px;
+}
+.type-3 .pd-list-item .pd-title h3 a:hover {
+  color: #67707c;
+}
+.type-3 .pd-list-item .pd-title .pd-labels .label,
+.type-3 .pd-list-item .pd-title .item-labels .label {
+  margin-left: 2px;
+  margin-top: 5px;
+}
+.type-3 .label-joomla3 {
+  background: url(https://www.joomlart.com/templates/ja_v5/images/joomlart/label-j30.png) no-repeat center center;
+}
+.type-3 .label-joomla3,
+.type-3 .label-magento {
+  height: 18px;
+  overflow: hidden;
+  padding: 0;
+  text-indent: -9999em;
+  width: 37px;
+  display: inline-block;
+}
+.type-3 .pd-list-item .pd-title {
+  margin-top: 24px;
+  padding: 0 12px;
+  position: relative;
+  text-align: center;
+}
+.type-3 .pd-title {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #67707c;
+}
+.type-3 .pd-list-item .pd-title h3 small {
+  display: block;
+  margin-top: 6px;
+  line-height: 1.4;
+  font-size: 14px;
+  vertical-align: middle;
+  text-transform: none;
+}
+.type-3 .pd-list-item .pd-title .pd-labels,
+.type-3 .pd-list-item .pd-title .item-labels {
+  display: inline-block;
+  margin: 0;
+  line-height: 1;
+  top: 2px;
+  position: relative;
+  text-align: left;
+  width: 90px;
+}
+.type-3 .latest-pd .pd-list .pd-title {
+  text-align: center;
+}
+.type-3 .btn-rounded.btn-lg {
+  border-radius: 48px;
+  padding-right: 48px;
+  padding-left: 48px;
+  text-transform: uppercase;
+}
+.type-3 .btn-lg {
+  padding: 16px 36px;
+}
+.type-3 .btn-primary {
+  color: #fff !important;
+}
+.type-3 .btn {
+  box-shadow: none;
+  text-shadow: none;
+}
+@media all and (min-width: 767px) {
+  .type-3 .image {
+    width: 100%;
+  }
+}
