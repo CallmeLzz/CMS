@@ -1,0 +1,180 @@
+.ph_simpleblog.simpleblog-recent .post-item {
+  margin-bottom: 10px;
+  float: left;
+}
+.ph_simpleblog.simpleblog-recent .ph_row {
+  position: relative;
+}
+.ph_simpleblog .post-additional-info {
+  padding: 0;
+  margin: 0 0 0 20px;
+  background: none;
+  width: 150px;
+  float: left;
+  color: #333;
+}
+.ph_simpleblog .post-item h2 {
+  font-size: 30px;
+  line-height: 32px;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 0;
+}
+.ph_simpleblog .fa-heart {
+  margin-top: 10px;
+}
+.ph_simpleblog .blog-post-likes {
+  background-color: #7e7d79;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  float: left;
+  color: #FFF;
+  font-size: 18px;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 1px;
+}
+.ph_simpleblog .ph_row {
+  padding: 0;
+  margin: 0;
+  content: "";
+  display: table;
+}
+.ph_simpleblog .post-item figure {
+  margin-bottom: 30px;
+}
+.ph_simpleblog figure {
+  margin: 0;
+}
+.ph_simpleblog .blog-date {
+  margin: 0 0 0 1px;
+  width: 70px;
+  height: 70px;
+  float: left;
+  background-color: #e2786a;
+  color: #FFF;
+  font-size: 18px;
+  text-align: center;
+  line-height: 24px;
+}
+.ph_simpleblog .blog-date div {
+  padding-top: 10px;
+}
+.ph_simpleblog .blog-date span {
+  text-transform: uppercase;
+  display: block;
+}
+.grayshadow {
+  box-shadow: 0 0 0 1px #7a7975, 0 0 0 2px #7a7975;
+  border: 1px solid rgba(255,255,255,0.2);
+  margin: 2px 0 0 2px;
+}
+.simpleblog-recent .post-views .svgic {
+  width: auto;
+  height: 14px;
+}
+.simpleblog-recent .post-additional-info {
+  position: relative !important;
+}
+.simpleblog-recent figure {
+  width: 240px;
+  float: left;
+  margin-right: 20px;
+}
+.simpleblog-recent figure .blog-main-image {
+  position: relative;
+}
+.simpleblog-recent .blog-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55px;
+}
+.simpleblog-recent .blog-post-info {
+  width: 310px;
+  float: left;
+}
+.svgic.fa-eye {
+  width: 15px;
+  height: 15px;
+  margin-top: 1px;
+}
+.ph_simpleblog.simpleblog-recent .blog-post-desc {
+  margin-bottom: 15px;
+  color: #6e6e6e;
+  font-size: 14px;
+  line-height: 22px;
+}
+.ph_simpleblog.simpleblog-recent .blog-post-desc p {
+  color: #6e6e6e;
+  font-size: 14px;
+  line-height: 22px;
+}
+.ph_simpleblog.simpleblog-recent p {
+  padding-bottom: 10px;
+}
+.ph_simpleblog.simpleblog-recent .post-tags {
+  background-position: 5px 12px;
+  display: inline-block !important;
+  vertical-align: top;
+  padding: 9px 0 10px 5px;
+  margin-left: 10px;
+  line-height: 16px;
+}
+.ph_simpleblog.simpleblog-recent .post-additional-info {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 15px;
+  display: block;
+  width: 100%;
+}
+.ph_simpleblog.simpleblog-recent .post-additional-info .post-author,
+.ph_simpleblog.simpleblog-recent .post-additional-info .post-tags,
+.ph_simpleblog.simpleblog-recent .post-additional-info .post-views {
+  line-height: 14px;
+  padding: 10px 0;
+  background-position: 0 11px;
+  text-indent: 20px;
+  color: #888;
+  font-style: italic;
+  font-size: 12px;
+}
+.ph_simpleblog.simpleblog-recent .blog-post-likes {
+  margin-top: 4px !important;
+}
+.ph_simpleblog.simpleblog-recent .blog-date {
+  margin: 2px 0 0 2px;
+}
+.ph_simpleblog.simpleblog-recent .blog-main-image {
+  background-position: 50%;
+  display: block;
+  width: 100%;
+  height: 230px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ph_simpleblog.simpleblog-recent .blog-date,
+.ph_simpleblog.simpleblog-recent .blog-post-likes {
+  width: 55px;
+  height: 55px;
+  font-size: 15px;
+  line-height: 17px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+.ph_simpleblog.simpleblog-recent .blog-post-info h2 {
+  font-size: 21px;
+  line-height: 21px;
+  color: #333;
+  font-weight: normal;
+  padding-bottom: 15px;
+}
+.ph_simpleblog.simpleblog-recent .blog-post-info h2 a {
+  display: block;
+}
+.bshadow {
+  box-shadow: 0 0 0 1px #e17365, 0 0 0 2px #e17365;
+}
+.main_bg {
+  background-color: #e17365;
+}
