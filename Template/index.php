@@ -24,6 +24,7 @@
             $less->compileFile('less/recent-post-list.less', 'css/recent-post-list.css');
             $less->compileFile('less/recent-post-title.less', 'css/recent-post-title.css');
             $less->compileFile('less/style-34.less', 'css/style-34.css');
+            $less->compileFile('less/footer.less', 'css/footer.css');
         ?>
 
         <link rel="stylesheet" type="text/css" href="css/type-10.css">
@@ -35,25 +36,28 @@
         <link rel="stylesheet" type="text/css" href="css/recent-post-list.css">
         <link rel="stylesheet" type="text/css" href="css/recent-post-title.css">
         <link rel="stylesheet" type="text/css" href="css/style-34.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
 
         <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="js/owl.carousel.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
-        <script type="text/javascript" src="js/count-down.js"></script>
+        <!-- <script type="text/javascript" src="js/count-down.js"></script> -->
         <script type="text/javascript" src="js/slideshow.js"></script>
+        <script type="text/javascript" src="js/test.js"></script>
     </head>
 
     <body>
-        <?php include'page/masterpage/menus.php'; ?>
-        
-        <!-- <?php include'page/home/featured-products.php'; ?>
+        <?php #include'page/masterpage/menus.php'; ?>
+
+        <?php include'page/home/featured-products.php'; ?>
         <?php include'page/home/recent-post.php'; ?>
         <?php include'page/home/newsletter.php'; ?>
 
         <?php include'page/home/productsCarousel.php'; ?>
         <?php include'page/home/banners-carousel.php'; ?>
         <?php include'page/home/instagram-feed.php'; ?>
-        <?php include'page/home/manufacturersCarousel.php'; ?> -->
+        <?php include'page/home/manufacturersCarousel.php'; ?>
+        <?php include'page/masterpage/footer.php'; ?>
     </body>
 
 </html>

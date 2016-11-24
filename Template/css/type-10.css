@@ -1,5 +1,114 @@
-@media all and (min-width: 767px) {
-  .type-3 .image {
-    width: 100%;
+.type-10 .flexmenu-container {
+  margin-bottom: 20px;
+}
+.type-10 .flexmenu-container .page_width {
+  margin: 0 auto;
+}
+.type-10 .flexmenu-container .flexmenu {
+  background: url(data:image/gif;base64,R0lGODlhAQAIAPECAIqKjAAAAPn5+QAAACH/C1hNUCBEYXRhWE1QAz94cAAh+QQFAAACACwAAAAAAQAIAEACA4x1UAA7) repeat-x 0 100%;
+  width: 100%;
+  margin: auto;
+}
+.type-10 .flexmenu-container .flexmenu ul {
+  list-style: none;
+}
+.type-10 .flexmenu-container .flexmenu ul a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.type-10 .flexmenu-container .flexmenu ul a span:hover {
+  display: block;
+}
+.type-10 .flexmenu-container .flexmenu ul .left-section-products {
+  width: 152px;
+  margin: 0 auto;
+}
+.type-10 .flexmenu-container .flexmenu ul .left-section-products li {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.type-10 .flexmenu-container .flexmenu > ul {
+  position: relative;
+}
+.type-10 .flexmenu-container .flexmenu > ul > li a {
+  height: 43px;
+  padding: 0 18px;
+  text-transform: uppercase;
+  color: #3a3a3c;
+  font-size: 19px;
+  line-height: 35px;
+  display: block;
+}
+.type-10 .flexmenu-container .flexmenu > ul > li > a {
+  font-family: "lm_roman_demi_10regular";
+}
+.type-10 .flexmenu-container .flexmenu > ul > li > a span {
+  padding: 0 10px;
+}
+.type-10 .flexmenu-container .flexmenu > ul > li div .submenu {
+  visibility: hidden;
+  overflow: hidden;
+  background: #f9f9f9;
+  width: 100%;
+  position: absolute;
+  top: 43px;
+  left: 0;
+  z-index: 9999;
+  opacity: 0;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.15);
+}
+.type-10 .flexmenu-container .flexmenu div .submenu .left-section {
+  float: left;
+}
+.type-10 .flexmenu-container .flexmenu .section-indent {
+  padding: 22px 20px 30px;
+  overflow: hidden;
+}
+.type-10 .flexmenu-container .flexmenu .left-title,
+.type-10 .flexmenu-container .flexmenu .right-title {
+  font-size: 14px;
+  line-height: 30px;
+  color: #999;
+  text-transform: uppercase;
+  text-indent: 15px;
+}
+.type-10 .flexmenu-container .flexmenu .li-indent {
+  padding: 0;
+}
+@media (min-width: 728px) {
+  .type-10 .flexmenuitem > a span {
+    position: relative;
+  }
+  .type-10 .flexmenu > ul > li > a span {
+    display: inline-block;
+    height: 43px;
+  }
+}
+@media (min-width: 729px) {
+  .type-10 .flexmenu * {
+    transition: none;
+  }
+  .type-10 .flexmenu a span {
+    transition: all 0.5s;
+  }
+  .type-10 .flexmenu > ul {
+    height: 43px;
+  }
+  .type-10 .flexmenu > ul > li {
+    display: block;
+    float: left;
+    height: 43px;
+  }
+}
+@media (min-width: 1170px) {
+  .type-10 .page_width {
+    width: 1170px;
+  }
+  .type-10 .flexmenu > ul > li >a {
+    padding: 0 25px;
+  }
+  .type-10 .flexmenu .left-section,
+  .type-10 .flexmenu .right-section {
+    width: 220px;
   }
 }
