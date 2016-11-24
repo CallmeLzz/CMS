@@ -1,0 +1,50 @@
+@font-face {
+  font-family: LMRoman10Regular;
+  src: url(../../templates/purity_iii/fonts/LMRoman10Regular.otf);
+}
+.recent-post-title {
+  margin-bottom: 30px;
+}
+.recent-post-title .w50 {
+  width: 50%;
+}
+.recent-post-title .w50 .wing {
+  border: 1px solid #e6e5e5;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.recent-post-title .title {
+  text-align: center;
+  position: relative;
+}
+.recent-post-title .title h3 {
+  margin: 0;
+  font-family: "LMRoman10Regular", serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  line-height: 46px;
+  white-space: nowrap;
+  padding: 0 70px;
+}
+.recent-post-title .title .buttons {
+  position: absolute;
+  border: 1px solid #e6e5e5;
+  padding: 0 8px;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e6e5e5;
+  cursor: pointer;
+  width: 46px;
+}
+.recent-post-title .title .buttons.next-btn {
+  right: 2px;
+  top: 0;
+}
+.recent-post-title .title .buttons.pre-btn {
+  left: 0;
+  top: 0;
+}
+.recent-post-title .title .buttons .fa {
+  font-size: 25px;
+  color: #a7a6a0;
+  line-height: 44px;
+}

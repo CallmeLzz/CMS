@@ -48,6 +48,7 @@ $this->addHead();
 // CUSTOM CSS
 if (is_file(T3_TEMPLATE_PATH . '/css/custom.css')) {
 	$this->addStyleSheet(T3_TEMPLATE_URL . '/css/custom.css');
+	$this->addStyleSheet(T3_TEMPLATE_URL . '/css/footer.css');
 }
 ?>
 

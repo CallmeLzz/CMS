@@ -28,17 +28,32 @@ defined('_JEXEC') or die;
 <head>
 	<jdoc:include type="head" />
 	<?php $this->loadBlock('head') ?>
+
+	<?php $this->addStyleSheet(T3_TEMPLATE_URL.'/css/font-awesome.min.css') ?>
+	<?php $this->addStyleSheet(T3_TEMPLATE_URL.'/css/bootstrap.min.css') ?>
+	<?php $this->addStyleSheet(T3_TEMPLATE_URL.'/css/owl.carousel.css') ?>
+
+	<?php $this->addCss('type-13') ?>
+	<?php $this->addCss('style_mine') ?>
+	<?php $this->addCss('featured-products-title') ?>
+	<?php $this->addCss('newsletter') ?>
+	<?php $this->addCss('products-list') ?>
+	<?php $this->addCss('recent-post-list') ?>
+	<?php $this->addCss('recent-post-title') ?>
+	<?php $this->addCss('style-34') ?>
+	<?php $this->addCss('footer') ?>
+
+	<?php $this->addScript(T3_TEMPLATE_URL.'/js/jquery-3.1.1.min') ?>
+	<?php $this->addScript(T3_TEMPLATE_URL.'/js/owl.carousel') ?>
+	<?php $this->addScript(T3_TEMPLATE_URL.'/js/script_mine') ?>
+	<?php $this->addScript(T3_TEMPLATE_URL.'/js/slideshow') ?>
 </head>
 
 <body>
 
   <div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
 
-      <?php $this->loadBlock('header') ?>
-
-      This's Front..........
-
-      <?php $this->loadBlock('footer') ?>
+      <?php $this->loadBlock('group_d') ?>
 
   </div>
 

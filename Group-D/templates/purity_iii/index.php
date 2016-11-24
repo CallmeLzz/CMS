@@ -30,9 +30,9 @@ $t3app = T3::getApp($this);
 
 // get configured layout
 $layout = $t3app->getLayout();
-var_dump($layout);
+//var_dump($layout);
 //Gán trang để hiển thị
 $layout = 'Front';
-var_dump($layout);
+//var_dump($layout);
 
 $t3app->loadLayout($layout);
