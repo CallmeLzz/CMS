@@ -1,0 +1,24 @@
+.banner .banner-feauter img {
+  border: 1px solid #e0e0e0;
+}
+.banner .banner-feauter .btn-view {
+  text-decoration: none;
+  padding: 6px 25px;
+  font-size: 22px;
+  font-family: Time New Roman;
+  background-color: #7a7975;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: all .3s ease-in-out;
+  position: absolute;
+  top: 60%;
+  left: 56%;
+}
+.banner .banner-feauter .btn-view:hover {
+  background-color: #e17365;
+  transition: all .3s ease-in-out;
+}
+.banner .banner-feauter .thumbs-banner img.item {
+  max-width: 100%;
+  overflow: visible;
+}

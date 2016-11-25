@@ -1,0 +1,74 @@
+//---------------------Pagination module------------------------
+  .page-sort-footer {
+    padding: 5px;
+    float: right;
+    .item-per-page {
+      display: inline-block;
+      label {
+        font-family: lm_roman_demi_10regular;
+        text-transform: uppercase;
+        font-size: 13px;
+        color: #999999;
+        float: right;
+        padding-top: 2px;
+      }
+      .selector {
+        float: right;
+        margin-left: 10px;
+        font-size: 12px;
+        font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+        select {
+          padding: 3px;
+        }
+      }
+    }
+    .pagination-container {
+      margin: 0;
+      display: inline-block;
+      padding-left: 20px;
+      float: right;
+      .show-all {
+        float: left;
+        .button {
+          border-radius: 0;
+          background: #7a7975;
+          color: white;
+          font-family: LMRomanCaps10-Regular;
+        }
+      }
+      .pagination {
+        float: left;
+        margin: 0;
+        .curent {
+          span {
+            text-decoration: underline;
+          }
+        }
+        .pagination-next {
+          a {
+            color: #666666;
+
+          }
+        }
+        span, a {
+          padding: 6px 6px;
+          border: none;
+          background-color: inherit;
+          color: black;
+          font: 13px Arial, Verdana, sans-serif;
+        }
+      }
+    }
+  }
+  @media (max-width: 767px) {
+
+    .page-sort-footer {
+      .pagination-container {
+        display: block;
+        float: none;
+        .show-all {
+          float: none;
+        }
+      }
+    }
+  }

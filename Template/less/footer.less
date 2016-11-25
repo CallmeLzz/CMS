@@ -8,6 +8,11 @@ footer {
     line-height: 18px;
     padding: 0 0 30px 10px;
     text-transform: uppercase;
+    cursor: pointer;
+    span {
+      float: right;
+      opacity: 0;
+    }
   }
   ul {
     padding: 0;
@@ -73,8 +78,9 @@ footer {
     }
   }
   .fb-followers {
-    & > div {
+    .item {
       margin-bottom: 35px;
+      float: left;
     }
   }
   .footer-bottom {
@@ -102,4 +108,29 @@ footer {
       }
     }
   }
+  @media screen and (max-width: 727px) {
+    h4 {
+      font-size: 1.5em;
+      span {
+        opacity: 1;
+      }
+    }
+
+    .content {
+      &.active {
+        .dropdown-content {
+          display: block;
+        }
+      }
+      .dropdown-content {
+        display: none;
+        margin-bottom: 30px;
+        li {
+          font-size: 1.2em;
+          padding: 20px;
+        }
+      }
+    }
+  }
 }
+

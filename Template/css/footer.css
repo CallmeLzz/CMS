@@ -9,6 +9,11 @@ footer h4 {
   line-height: 18px;
   padding: 0 0 30px 10px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+footer h4 span {
+  float: right;
+  opacity: 0;
 }
 footer ul {
   padding: 0;
@@ -71,8 +76,9 @@ footer a {
 footer a:hover {
   color: #fff;
 }
-footer .fb-followers > div {
+footer .fb-followers .item {
   margin-bottom: 35px;
+  float: left;
 }
 footer .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.05);
@@ -96,4 +102,23 @@ footer .footer-bottom #payment-icons ul li {
   padding: 0;
   float: left;
   margin-right: 10px;
+}
+@media screen and (max-width: 727px) {
+  footer h4 {
+    font-size: 1.5em;
+  }
+  footer h4 span {
+    opacity: 1;
+  }
+  footer .content.active .dropdown-content {
+    display: block;
+  }
+  footer .content .dropdown-content {
+    display: none;
+    margin-bottom: 30px;
+  }
+  footer .content .dropdown-content li {
+    font-size: 1.2em;
+    padding: 20px;
+  }
 }

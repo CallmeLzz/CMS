@@ -1,0 +1,161 @@
+header.type-10 {
+    .topheader {
+        background-color: #ebebeb;
+        nav.topmenu-left {
+            ul.top-parent-menu {
+                float: left;
+                padding: 5px 0;
+                color: #999;
+                li {
+                    float: left;
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    a {
+                        a;
+                        color: #999;
+                        padding: 8px 20px;
+                        padding-bottom: 16px;
+                        transition: all .2s ease-in-out;
+                        text-align: center;
+                    }
+                    a:hover {
+                        background-color: #e17365;
+                        color: #ffffff;
+                    }
+                    ul.top-sub-menu {
+                        background-color: #e17365;
+                        position: absolute;
+                        top: 38px;
+                        display: none;
+                        li.dropdown {
+                            float: none;
+                            padding: 10px 7px;
+                            text-align: left;
+                            margin-right: 100px;
+                            transition: all .3s ease-in-out;
+                            .sub-menu {
+                                color: #ffffff;
+                                margin-left: -37px;
+                                padding: 10px;
+                            }
+                        }
+                    }
+                }
+                li:hover {
+                    .active {
+                        background-color: #e17365;
+                        color: #ffffff;
+                    }
+                    ul.top-sub-menu {
+                        display: block;
+                        transition: all .3s ease-in-out;
+                        color: #999;
+                    }
+                }
+                .sign-in {
+                    a;
+                    color: #999;
+                    transition: all .2s ease-in-out;
+                    margin-left: 10px;
+                }
+                .register {
+                    a;
+                    color: #999;
+                    transition: all .2s ease-in-out;
+                }
+                .catch:hover {
+                    color: #e17365;
+                    transition: all .2s ease-in-out;
+                }
+            }
+        }
+        nav.topmenu-right {
+            ul {
+                float: right;
+                cursor: pointer;
+                li {
+                    float: left;
+                    margin: 0 20px;
+                    padding: 0;
+                    list-style: none;
+                    .show-countries {
+                        padding: 8px 10px;
+                        img {
+                            max-width: 100%;
+                            margin-bottom: 3px;
+                        }
+                    }
+                    .hide-countries {
+                        position: absolute;
+                        left: 10px;
+                        background-color: #ebebeb;
+                        margin-left: -10px;
+                        padding-right: 9px;
+                        display: inline-table;
+                        display: none;
+                        .countries {
+                            margin-left: 5px;
+                            padding: 3px 5px;
+                            transition: all .2s ease-in-out;
+                        }
+                        .countries:hover {
+                            background-color: #e17365;
+                            transition: all .2s ease-in-out;
+                            .languege { 
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                    .show-money {
+                        padding: 8px 10px;
+                    }
+                    .hide-money {
+                        position: absolute;
+                        left: 10px;
+                        background-color: #ebebeb;
+                        margin-left: -10px;
+                        display: inline-table;
+                        display: none;
+                        .money {
+                            margin-left: 5px;
+                            padding: 3px 5px;
+                            transition: all .2s ease-in-out;
+                            a {
+                                padding: 5px 6px;
+                            }
+                            a:hover {
+                                background-color: #e17365;
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                    a {
+                        a;
+                        color: #6d6d6d;
+                    }
+                }
+                li:hover {
+                    background-color: #7b7975;
+                    .show-countries {
+                        .languege-en {
+                            color: #ffffff;
+                            transition: all .2s ease-in-out;
+                        }
+                    }
+                    .show-money {
+                        .money-active {
+                            color: #ffffff;
+                        }
+                    }
+                    .hide-countries, .hide-money {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+a {
+    text-decoration: none;
+}
