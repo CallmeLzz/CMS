@@ -1,0 +1,119 @@
+//---------------------Content-sort module------------------------
+  .content-sort {
+    margin: 11px 0 0 0;
+    clear: left;
+    .sort-bar {
+      background: #f1eee7;
+      padding: 7px;
+      font: normal 11px Arial, Verdana, sans-serif;
+      color: #666;
+      form {
+        display: inline-block;
+      }
+      .button.bt_compare {
+        padding: 7px;
+        border-radius: 0;
+        line-height: 16px;
+        margin-right: 20px;
+        background: #ccc;
+        -webkit-appearance: none;
+        font-family: "LMRomanCaps10-Regular";
+      }
+      #productsSortForm {
+        float: left;
+        label {
+          float: left;
+          font: normal 13px Georgia;
+          line-height: 26px;
+          vertical-align: top;
+          text-transform: uppercase;
+          padding-right: 5px;
+          padding-top: 5px;
+        }
+        .selector {
+          float: left;
+        }
+        select {
+          border-radius: 0;
+          width: 150px;
+          font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+          font-size: 12px;
+        }
+      }
+      .views-float {
+        display: inline;
+        float: left;
+      }
+      .compare-form {
+        float: left;
+      }
+      .total-compare-val {
+        font-weight: normal;
+      }
+      .views {
+        padding: 9px;
+      }
+      .dib {
+        display: inline-block;
+        vertical-align: top;
+      }
+      #view_grid, #view_list {
+        opacity: 0.5;
+      }
+      #view_grid {
+        background: url(<?php echo T3_TEMPLATE_URL; ?>/images/group_d/icon/grid-list.gif) no-repeat 0 0;
+      }
+      #view_list {
+        background: url(<?php echo T3_TEMPLATE_URL; ?>/images/group_d/icon/grid-list.gif) no-repeat 0 -16px;
+      }
+      .view_btn {
+        width: 16px;
+        height: 16px;
+        margin-left: 10px;
+        cursor: pointer;
+      }
+      .views span {
+        font: normal 14px/17px Georgia;
+        padding-left: 10px;
+      }
+      .grid_title {
+        padding-right: 10px;
+      }
+      #view_grid:hover, #view_list:hover, #view_grid.active, #view_list.active {
+        opacity: 1;
+      }
+    }
+    .button:hover {
+      color: white;
+      &.bt_compare {
+        background-color: #e17365;
+      }
+    }
+  }
+  @media (max-width: 767px) {
+
+    .sort-bar {
+      background-color: inherit !important;
+      .views-float {
+        display: inline;
+        float: none;
+        margin-bottom: 10px;
+        .compare-form {
+          margin-bottom: 10px;
+          margin-right: 150px;
+        }
+      }
+      .views {
+        display: none !important;
+      }
+    }
+  }
+  @media (max-width: 979px) {
+    .view_grid .product_list > li {
+      margin-right: 26px;
+    }
+
+    .grid_title, .list_title {
+      display: none;
+    }
+  }

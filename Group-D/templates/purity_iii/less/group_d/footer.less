@@ -1,0 +1,136 @@
+footer {
+  background-color: #6f6d69;
+  margin-top: 120px;
+  color: white;
+  padding-top: 50px;
+  h4 {
+    font: normal 15px Georgia;
+    line-height: 18px;
+    padding: 0 0 30px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    span {
+      float: right;
+      opacity: 0;
+    }
+  }
+  ul {
+    padding: 0;
+    border-top: 1px solid rgba(255, 255, 255, .05);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    list-style: none;
+    margin: 0;
+    li {
+      transition: all .2s ease-in-out;
+      font: normal 13px Verdana;
+      line-height: 18px;
+      padding: 11px 0 11px 10px;
+      border-top: 1px solid rgba(0, 0, 0, .05);
+      border-bottom: 1px solid rgba(255, 255, 255, .05);
+      &:first-child {
+        border-top: 1px solid rgba(0, 0, 0, .1);
+      }
+      a {
+        color: #efefef;
+      }
+      a:hover {
+        text-decoration: none;
+        color: #ccc !important;
+      }
+    }
+    li:hover {
+      background: rgba(255, 255, 255, .05);
+      padding-left: 13px;
+    }
+    &#tweet {
+      border: none;
+      color: #efefef;
+      a {
+        color: #c5988b;
+      }
+      li {
+        border: none;
+        padding: 0 0 25px 28px;
+        position: relative;
+      }
+      .tweet-time {
+        a {
+          color: #e6e6e6 !important;
+          font-family: Georgia !important;
+          font-style: italic !important;
+        }
+      }
+      .icon {
+        width: 17px;
+        height: 17px;
+        color: #a3a19d;
+        position: absolute;
+        left: 0;
+        top: 2px;
+        font-size: 1.3em;
+      }
+    }
+  }
+  a {
+    color: #fff;
+    &:hover {
+      color: #fff;
+    }
+  }
+  .fb-followers {
+    .item {
+      margin-bottom: 35px;
+      float: left;
+    }
+  }
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, .05);
+    padding: 25px 0;
+    & > div {
+      & > div {
+        width: 50%;
+      }
+    }
+    .footer-text {
+      color: #e1e1e1;
+      float: left;
+    }
+    #payment-icons {
+      margin-bottom: 15px;
+      overflow: hidden;
+      ul {
+        float: right;
+        li {
+          padding: 0;
+          float: left;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 727px) {
+    h4 {
+      font-size: 1.5em;
+      span {
+        opacity: 1;
+      }
+    }
+
+    .content {
+      &.active {
+        .dropdown-content {
+          display: block;
+        }
+      }
+      .dropdown-content {
+        display: none;
+        margin-bottom: 30px;
+        li {
+          font-size: 1.2em;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+
