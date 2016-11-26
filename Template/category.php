@@ -7,12 +7,14 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+
     <?php
 	    if (!class_exists('lessc')) {
 	        include('./libs/lessc.inc.php');
 	    }
 	    $less = new lessc;
 	    $less->compileFile('less/type-10.less', 'css/type-10.css');
+	    $less->compileFile('less/mega_menu.less', 'css/mega_menu.css');
 	    $less->compileFile('less/type-34.less', 'css/type-34.css');
 	    $less->compileFile('less/banner.less', 'css/banner.css');
 	    $less->compileFile('less/breadcrumb.less', 'css/breadcrumb.css');
@@ -24,7 +26,9 @@
 	    $less->compileFile('less/top-seller.less', 'css/top-seller.css');
 	    $less->compileFile('less/footer.less', 'css/footer.css');
     ?>
+
     <link rel="stylesheet" type="text/css" href="css/type-10.css">
+    <link rel="stylesheet" type="text/css" href="css/mega_menu.css">
     <link href="css/type-34.css" rel="stylesheet" type="text/css"/>
     <link href="css/add-font.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="css/banner.css">
@@ -36,15 +40,11 @@
     <link rel="stylesheet" type="text/css" href="css/product-list.css">
     <link rel="stylesheet" type="text/css" href="css/top-seller.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
-
-    <script language="JavaScript" type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script language="JavaScript" type="text/javascript" src="js/jquery-ui.min.js"></script>
-    <script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script language="JavaScript" type="text/javascript" src="js/range-slider.js"></script>
-    <script language="JavaScript" type="text/javascript" src="js/script_st.js"></script>
 </head>
 <body>
 	<?php include'page/masterpage/header.php'; ?>
+	<?php include'page/masterpage/menus.php'; ?>
+	
 	<div class="type-34">
 	    <div class="container">
 	        <?php include 'page/category/breadcrumb.php' ?>
@@ -64,5 +64,12 @@
 	    </div>
 	</div>
 	<?php include'page/masterpage/footer.php'; ?>
+
+	<script language="JavaScript" type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="js/range-slider.js"></script>
+    <script language="JavaScript" type="text/javascript" src="js/script_st.js"></script>
+    <script type="text/javascript" src="js/script_menu.js"></script>
 </body>
 </html>

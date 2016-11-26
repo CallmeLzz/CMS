@@ -16,6 +16,7 @@
             }
             $less = new lessc;
             $less->compileFile('less/type-10.less', 'css/type-10.css');
+            $less->compileFile('less/mega_menu.less', 'css/mega_menu.css');
             $less->compileFile('less/banner_home.less', 'css/banner_home.css');
             $less->compileFile('less/type-13.less', 'css/type-13.css');
             $less->compileFile('less/style_mine.less', 'css/style_mine.css');
@@ -30,6 +31,7 @@
 
         <link rel="stylesheet" type="text/css" href="css/type-10.css">
         <link rel="stylesheet" type="text/css" href="css/banner_home.css">
+        <link rel="stylesheet" type="text/css" href="css/mega_menu.css">
         <link rel="stylesheet" type="text/css" href="css/type-13.css">
         <link rel="stylesheet" type="text/css" href="css/style_mine.css">
         <link rel="stylesheet" type="text/css" href="css/featured-products-title.css">
@@ -39,17 +41,11 @@
         <link rel="stylesheet" type="text/css" href="css/recent-post-title.css">
         <link rel="stylesheet" type="text/css" href="css/style-34.css">
         <link rel="stylesheet" type="text/css" href="css/footer.css">
-
-        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-        <script type="text/javascript" src="js/owl.carousel.js"></script>
-        <script type="text/javascript" src="js/script_mine.js"></script>
-        <!-- <script type="text/javascript" src="js/count-down.js"></script> -->
-        <script type="text/javascript" src="js/slideshow.js"></script>
-        <script type="text/javascript" src="js/script-dropdown.js"></script>
     </head>
 
     <body>
         <?php include'page/masterpage/header.php'; ?>
+        <?php include'page/masterpage/menus.php'; ?>
         <?php include'page/home/banner.php'; ?>
 
         <?php include'page/home/featured-products.php'; ?>
@@ -62,6 +58,14 @@
         <?php include'page/home/manufacturersCarousel.php'; ?>
 
         <?php include'page/masterpage/footer.php'; ?>
-    </body>
 
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.js"></script>
+        <script type="text/javascript" src="js/script_menu.js"></script>
+        <script type="text/javascript" src="js/script_mine.js"></script>
+        <!-- <script type="text/javascript" src="js/count-down.js"></script> -->
+        <script type="text/javascript" src="js/slideshow.js"></script>
+        <script type="text/javascript" src="js/script-dropdown.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </body>
 </html>

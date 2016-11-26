@@ -1,117 +1,290 @@
-<body>
-	<div class="type-10">
-		<div class="flexmenu-container">
-			<div class="page_width">
-				<div class="flexmenu">
-					<ul class="flexmenu_ul">
-						<li class="flexmenuitem">
-							<a href="#"><span>Women</span></a>
-							<div class="submenu clearfix">
-								<div class="menu_width">
-									<div class="left-section">
-										<div class="section-indent">
-											<div class="left-title menu-product-title"><span>Best Seller</span></div>
-											<ul class="left-section-products menu-product">
-												<li>
-													<div class="li-indent">
-														<a class="product-image-link" href="#">
-															<img src="images/dress-anna-sui-ambrosia-lace.jpg" alt="Dress Anna Sui...">
-														</a>
-														<a href="#" class="menu-product-name">Dress Anna Sui...</a>
-														<span class="price-container">
-															<span class="price">$309.00</span>
-														</span>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</div>
-									<div class="sections-contaier">
-										<div class="main-section only-left">
-											<div class="section-indent">
-												<ul class="main-section-links">
-													<li class="">
-														<a class="menu-item-title" href="http://alysum.promokit.eu/en/8-dresses">Dresses</a><a href="#" class="opener"></a>
-														<ul class="main-section-sublinks dd-section level_0">
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/17-strapless-dresses">Strapless Dresses</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/12-evening-dresses">Evening Dresses</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/13-casual-dresses">Casual Dresses</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/14-party-dresses">Party Dresses</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/15-maxi-dresses">Maxi Dresses</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/16-midi-dresses">Midi Dresses</a></li>
-														</ul>
-													</li>
-													<li class="">
-														<a class="menu-item-title" href="http://alysum.promokit.eu/en/9-accessories">Accessories</a><a href="#" class="opener"></a>
-														<ul class="main-section-sublinks dd-section level_0">
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/18-bags-and-purces">Bags and Purces</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/19-belts">Belts</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/20-scarves">Scarves</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/21-gloves">Gloves</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/22-jewellery">Jewellery</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/23-sunglasses">Sunglasses</a></li>
-														</ul>
-													</li>
-													<li class="">
-														<a class="menu-item-title" href="http://alysum.promokit.eu/en/10-tops">Tops</a><a href="#" class="opener"></a>
-														<ul class="main-section-sublinks dd-section level_0">
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/28-sleeveless">Sleeveless</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/29-tanks">Tanks</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/30-tunics">Tunics</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/27-short-sleeved">Short Sleeved</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/26-long-sleeved">Long Sleeved</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/25-evening-tops">Evening Tops</a></li>
-														</ul>
-													</li>
-													<li class="">
-														<a class="menu-item-title" href="http://alysum.promokit.eu/en/11-handbags">Handbags</a><a href="#" class="opener"></a>
-														<ul class="main-section-sublinks dd-section level_0">
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/31-totes">Totes</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/32-clutches">Clutches</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/33-cross-body">Cross Body</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/34-satchels">Satchels</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/35-shoulder">Shoulder</a></li>
-														</ul>
-													</li>
-													<li class="">
-														<a class="menu-item-title" href="http://alysum.promokit.eu/en/36-clothes">Clothes</a><a href="#" class="opener"></a>
-														<ul class="main-section-sublinks dd-section level_0">
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/39-suits">Suits</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/40-t-shorts">T-Shorts</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/41-polo-shirts">Polo Shirts</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/42-jeans">Jeans</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/43-trousers">Trousers</a></li>
-															<li class=""><a class="menu-item-title" href="http://alysum.promokit.eu/en/44-chinos">Chinos</a></li>
-														</ul>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div class="bottom-section">
-											<div class="section-indent"><a href="#" class="imagelink"><img src="/modules/pk_flexmenu/uploads/banner-bottom.jpg" class="bottomimage menu-image" alt=""></a></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="flexmenuitem">
-							<a href="#"><span>Man</span></a>
-						</li>
-						<li class="flexmenuitem">
-							<a href="#"><span>Blog</span></a>
-						</li>
-						<li class="flexmenuitem">
-							<a href="#"><span>About Us</span></a>
-						</li>
-						<li class="flexmenuitem">
-							<a href="#"><span>Brands</span></a>
-						</li>
-						<li class="flexmenuitem">
-							<a href="#"><span>Demons</span></a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</body>
+<div class="type-10_menu">
+    <div id="white_background" class="slidelip"> 
+        <div id="pattent"> 
+            <!--MEGA MENU-->
+            <div class="menu-container">
+                <div class="container margin-auto"> 
+                    <div class="mega-menu">
+                        <div class="mobileMenuTitle">Menu</div>
+                        <ul class="mega-menu-ul">
+                            <li class="dropdown mega-dropdown mega-menu-item mega-active">
+                                <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown">
+                                    <span>Women</span>
+                                </a>
+                                <a href="#" class="opener"></a>
+                                <ul class="container margin-auto dropdown-menu mega-dropdown-menu" >
+                                    <li class="col-md-2 col-sm-3">
+                                        <ul class="first-item">
+                                            <li class="dropdown-header">Best Seller</li>  
+                                            <div class="item active">
+                                                <a href="#">
+                                                    <img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive" alt="product 1">
+                                                </a>
+                                            </div>
+
+                                            <li class="divider"></li>
+                                            <li>
+                                                <a href="#">Dress Anna Sui....</a>
+                                                <span class="price">$309.00</span>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-md-10 col-sm-10">
+                                        <ul class="full-width">
+                                            <li class="col-md-2 col-sm-3">
+                                                <ul>
+                                                    <li class="dropdown-header">Dresses</li>
+                                                    <li><a href="#">Strapless Dresses</a></li>
+                                                    <li><a href="#">Evening Dresses</a></li>
+                                                    <li><a href="#">Casual Dresses</a></li>
+                                                    <li><a href="#">Party Dresses</a></li>
+                                                    <li><a href="#">Maxi Dresses</a></li>
+                                                    <li><a href="#">Midi Dresses</a></li>
+                                                    <li class="divider"></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-md-2 col-sm-3">
+                                                <ul>
+                                                    <li class="dropdown-header">Dresses</li>
+                                                    <li><a href="#">Strapless Dresses</a></li>
+                                                    <li><a href="#">Evening Dresses</a></li>
+                                                    <li><a href="#">Casual Dresses</a></li>
+                                                    <li><a href="#">Party Dresses</a></li>
+                                                    <li><a href="#">Maxi Dresses</a></li>
+                                                    <li><a href="#">Midi Dresses</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-md-2 col-sm-3">
+                                                <ul>
+                                                    <li class="dropdown-header">Dresses</li>
+                                                    <li><a href="#">Strapless Dresses</a></li>
+                                                    <li><a href="#">Evening Dresses</a></li>
+                                                    <li><a href="#">Casual Dresses</a></li>
+                                                    <li><a href="#">Party Dresses</a></li>
+                                                    <li><a href="#">Maxi Dresses</a></li>
+                                                    <li><a href="#">Midi Dresses</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-md-2 col-sm-3">
+                                                <ul>
+                                                    <li class="dropdown-header">Dresses</li>
+                                                    <li><a href="#">Strapless Dresses</a></li>
+                                                    <li><a href="#">Evening Dresses</a></li>
+                                                    <li><a href="#">Casual Dresses</a></li>
+                                                    <li><a href="#">Party Dresses</a></li>
+                                                    <li><a href="#">Maxi Dresses</a></li>
+                                                    <li><a href="#">Midi Dresses</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-md-2 col-sm-3">
+                                                <ul>
+                                                    <li class="dropdown-header">Dresses</li>
+                                                    <li><a href="#">Strapless Dresses</a></li>
+                                                    <li><a href="#">Evening Dresses</a></li>
+                                                    <li><a href="#">Casual Dresses</a></li>
+                                                    <li><a href="#">Party Dresses</a></li>
+                                                    <li><a href="#">Maxi Dresses</a></li>
+                                                    <li><a href="#">Midi Dresses</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-md-10 col-sm-10 clearfix">
+                                        <a>
+                                            <img src="images/banner-bottom.jpg">
+                                        </a>
+                                    </li>
+                                </ul>	
+                            </li>
+                            <li class="dropdown mega-dropdown mega-menu-item">
+                                <a href="#" class="menu-item dropdown-toggle" data-toggle="dropdown">
+                                    <span>Men</span>
+                                </a>				
+                                <a href="#" class="opener"></a>
+                                <ul class="container margin-auto dropdown-menu mega-dropdown-menu" >
+                                    <li class="col-md-2 col-sm-3">
+                                        <ul class="first-item">
+                                            <div class="item active">
+                                                <a href="#">
+                                                    <img src="images/banner-left.jpg" class="img-responsive" alt="product 1">
+                                                </a>
+                                            </div> 
+                                        </ul>
+                                    </li>
+                                    <li class="col-md-8 col-sm-8">
+                                        <ul class="full-width">
+                                            <li class="col-md-3 col-sm-6">
+                                                <ul>
+                                                    <li class="dropdown-header">Dresses</li>
+                                                    <li><a href="#">Strapless Dresses</a></li>
+                                                    <li><a href="#">Evening Dresses</a></li>
+                                                    <li><a href="#">Casual Dresses</a></li>
+                                                    <li><a href="#">Party Dresses</a></li>
+                                                    <li><a href="#">Maxi Dresses</a></li>
+                                                    <li><a href="#">Midi Dresses</a></li>
+                                                    <li class="divider"></li> 
+                                                </ul>
+                                            </li>
+                                            <li class="col-md-3 col-sm-6">
+                                                <ul>
+                                                    <li class="dropdown-header">Dresses</li>
+                                                    <li><a href="#">Strapless Dresses</a></li>
+                                                    <li><a href="#">Evening Dresses</a></li>
+                                                    <li><a href="#">Casual Dresses</a></li>
+                                                    <li><a href="#">Party Dresses</a></li>
+                                                    <li><a href="#">Maxi Dresses</a></li>
+                                                    <li><a href="#">Midi Dresses</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-md-3 col-sm-6">
+                                                <ul>
+                                                    <li class="dropdown-header">Dresses</li>
+                                                    <li><a href="#">Strapless Dresses</a></li>
+                                                    <li><a href="#">Evening Dresses</a></li>
+                                                    <li><a href="#">Casual Dresses</a></li>
+                                                    <li><a href="#">Party Dresses</a></li>
+                                                    <li><a href="#">Maxi Dresses</a></li>
+                                                    <li><a href="#">Midi Dresses</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-md-3 col-sm-6">
+                                                <ul>
+                                                    <li class="dropdown-header">Dresses</li>
+                                                    <li><a href="#">Strapless Dresses</a></li>
+                                                    <li><a href="#">Evening Dresses</a></li>
+                                                    <li><a href="#">Casual Dresses</a></li>
+                                                    <li><a href="#">Party Dresses</a></li>
+                                                    <li><a href="#">Maxi Dresses</a></li>
+                                                    <li><a href="#">Midi Dresses</a></li>
+                                                </ul>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="col-md-2 col-sm-2">
+                                        <ul class="first-item">
+                                            <li class="dropdown-header">Best Seller</li>  
+                                            <div class="item active">
+                                                <a href="#">
+                                                    <img src="images/sid-sweat-red.jpg" class="img-responsive" alt="product 1">
+                                                </a>
+                                            </div>
+
+                                            <li class="divider"></li>
+                                            <li>
+                                                <a href="#">Sid Sweat Red</a>
+                                                <span class="price">$138.00</span>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>	
+                            </li>
+
+                            <li class="dropdown mega-dropdown mega-menu-item">
+                                <a href="#" class="menu-item">
+                                    <span>Blog</span>
+
+                                </a> 
+                                <a href="#" class="opener"></a>
+                            </li>
+                            <li class="dropdown mega-dropdown mega-menu-item">
+                                <a href="#"class="menu-item">
+                                    <span>About Us</span>
+                                </a>
+                                <a href="#" class="opener"></a>
+
+                                <ul class="container margin-auto dropdown-menu mega-dropdown-menu" >
+                                    <li class="align-center full-width">
+                                        <h2>Alysum -  is the universal theme, with the pleasant and clean design.</h2>
+                                        <p>With this theme you can easily create your unique shop, choosing any colors & over 500 Google fonts. </p>
+                                    </li>
+                                    <li class="col-md-3 col-sm-3 clearfix align-center">
+                                        <img src="images/mic01.png">
+                                        <h4>Responsive design</h4>
+                                        <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
+                                    </li>
+                                    <li class="col-md-3 col-sm-3 align-center">
+                                        <img src="images/mic02.png">
+                                        <h4>Responsive design</h4>
+                                        <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
+                                    </li>
+                                    <li class="col-md-3 col-sm-3 align-center">
+                                        <img src="images/mic03.png">
+                                        <h4>Responsive design</h4>
+                                        <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
+                                    </li>
+                                    <li class="col-md-3 col-sm-3 align-center">
+                                        <img src="images/mic04.png">
+                                        <h4>Responsive design</h4>
+                                        <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
+                                    </li>
+                                </ul>	
+                            </li>
+                            <li class="dropdown mega-dropdown mega-menu-item">
+                                <a href="#"class="menu-item">
+                                    <span>Brands</span>
+                                </a>
+                                <a href="#" class="opener"></a>
+                                <ul class="container margin-auto dropdown-menu mega-dropdown-menu" >
+                                    <li class="col-md-2 col-sm-2 brand">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                    </li> 
+                                    <li class="col-md-2 col-sm-2 brand">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                    </li> 
+                                    <li class="col-md-2 col-sm-2 brand">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                    </li> 
+                                    <li class="col-md-2 col-sm-2 brand">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                    </li>  
+                                    <li class="col-md-2 col-sm-2 brand">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                    </li> 
+                                    <li class="col-md-2 col-sm-2 brand">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                    </li> 
+                                    <li class="col-md-2 col-sm-2 brand">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                    </li> 
+                                    <li class="col-md-2 col-sm-2 brand">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                    </li> 
+                                    <li class="col-md-2 col-sm-2 brand">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                    </li> 
+                                    <li class="col-md-2 col-sm-2 brand">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                    </li> 
+                                    <li class="col-md-2 col-sm-2 brand">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                    </li> 
+                                    <li class="col-md-2 col-sm-2 brand">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                    </li> 
+                                </ul>	
+                            </li>
+
+                            <li class="dropdown mega-dropdown mega-menu-item">
+                                <a href="#"class="menu-item">
+                                    <span>Demos</span>
+                                </a>
+                                <a href="#" class="opener"></a>
+                                <ul class="dropdown-menu mega-dropdown-menu demos" >
+                                    <li>Demo 01 - Alysum</li>
+                                    <li>Demo 01 - Alysum</li>
+                                    <li>Demo 01 - Alysum</li>
+                                    <li>Demo 01 - Alysum</li>
+                                    <li>Demo 01 - Alysum</li>
+                                    <li>Demo 01 - Alysum</li>
+                                    <li>Demo 01 - Alysum</li>
+                                </ul>
+                            </li>
+                        </ul> 
+                    </div><!-- /.nav-collapse -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
