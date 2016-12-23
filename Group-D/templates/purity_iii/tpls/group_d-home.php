@@ -15,19 +15,18 @@
 $responsive = $this->getParam('responsive', 1);
 $resClass = "";
 if ($responsive==0){
-	$resClass = "no-responsive";
+    $resClass = "no-responsive";
 }
-
 defined('_JEXEC') or die;
 ?>
 
 <!DOCTYPE html>
 <html lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>"
-	  class='<jdoc:include type="pageclass" /> <?php echo $resClass ?>'>
+      class='<jdoc:include type="pageclass" /> <?php echo $resClass ?>'>
 
   <head>
-  	<jdoc:include type="head" />
-  	<?php //$this->loadBlock('head') ?>
+    <jdoc:include type="head" />
+    <?php //$this->loadBlock('head') ?>
 
     <?php $this->addStyleSheet(T3_TEMPLATE_URL.'/css/group_d/font-awesome.min.css'); ?>
     <?php $this->addStyleSheet(T3_TEMPLATE_URL.'/css/group_d/bootstrap.min.css'); ?>
@@ -65,13 +64,13 @@ defined('_JEXEC') or die;
 
     <?php $this->loadBlock('masterpage/footer'); ?>
 
-    <?php $this->addScript(T3_TEMPLATE_URL.'/js/group_d/jquery-3.1.1.min'); ?>
-    <?php $this->addScript(T3_TEMPLATE_URL.'/js/group_d/owl.carousel'); ?>
-    <?php $this->addScript(T3_TEMPLATE_URL.'/js/group_d/script_menu'); ?>
-    <?php $this->addScript(T3_TEMPLATE_URL.'/js/group_d/script_mine'); ?>
-    <?php $this->addScript(T3_TEMPLATE_URL.'/js/group_d/slideshow'); ?>
-    <?php $this->addScript(T3_TEMPLATE_URL.'/js/group_d/script-dropdown'); ?>
-    <?php $this->addScript(T3_TEMPLATE_URL.'/js/group_d/bootstrap.min'); ?>
+    <?php $this->addScript(T3_TEMPLATE_URL.'/js/group_d/jquery-3.1.1.min.js'); ?>
+    <?php $this->addScript(T3_TEMPLATE_URL.'/js/group_d/owl.carousel.js'); ?>
+    <?php $this->addScript(T3_TEMPLATE_URL.'/js/group_d/script_menu.js'); ?>
+    <?php $this->addScript(T3_TEMPLATE_URL.'/js/group_d/script_mine.js'); ?>
+    <?php $this->addScript(T3_TEMPLATE_URL.'/js/group_d/slideshow.js'); ?>
+    <?php $this->addScript(T3_TEMPLATE_URL.'/js/group_d/script-dropdown.js'); ?>
+    <?php $this->addScript(T3_TEMPLATE_URL.'/js/group_d/bootstrap.min.js'); ?>
 
 
     <script type="text/javascript" src="<?php echo T3_TEMPLATE_URL; ?>./js/group_d/jquery-3.1.1.min.js"></script>

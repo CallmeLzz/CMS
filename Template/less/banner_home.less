@@ -1,5 +1,6 @@
 .banner {
 	.banner-feauter {
+	margin: 0;
 		img {
 			border: 1px solid #e0e0e0;
 		}
@@ -21,9 +22,16 @@
 			transition: all .3s ease-in-out;
 		}
 		.thumbs-banner {
-			img.item {
-				max-width: 100%;
-				overflow: visible;
+			margin-bottom: 30px;
+			.block{
+			    overflow: hidden;
+			    position: relative;
+			    max-height: 270px;
+			    border-bottom: 1px solid #e0e0e0;
+				img.item {
+					max-width: 100%;
+					overflow: visible;
+				}
 			}
 		}
 	}

@@ -7,7 +7,7 @@
                     <div class="mega-menu">
                         <div class="mobileMenuTitle">Menu</div>
                         <ul class="mega-menu-ul">
-                            <li class="dropdown mega-dropdown mega-menu-item mega-active">
+                            <li class="dropdown menu-dropdown mega-dropdown mega-menu-item mega-active">
                                 <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown">
                                     <span>Women</span>
                                 </a>
@@ -18,7 +18,7 @@
                                             <li class="dropdown-header">Best Seller</li>  
                                             <div class="item active">
                                                 <a href="#">
-                                                    <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive" alt="product 1">
+                                                    <img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive" alt="product 1">
                                                 </a>
                                             </div>
 
@@ -91,22 +91,22 @@
                                     </li>
                                     <li class="col-md-10 col-sm-10 clearfix">
                                         <a>
-                                            <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/banner-bottom.jpg">
+                                            <img src="images/banner-bottom.jpg">
                                         </a>
                                     </li>
-                                </ul>	
+                                </ul>   
                             </li>
-                            <li class="dropdown mega-dropdown mega-menu-item">
+                            <li class="dropdown menu-dropdown mega-dropdown mega-menu-item">
                                 <a href="#" class="menu-item dropdown-toggle" data-toggle="dropdown">
                                     <span>Men</span>
-                                </a>				
+                                </a>                
                                 <a href="#" class="opener"></a>
                                 <ul class="container margin-auto dropdown-menu mega-dropdown-menu" >
                                     <li class="col-md-2 col-sm-3">
                                         <ul class="first-item">
                                             <div class="item active">
                                                 <a href="#">
-                                                    <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/banner-left.jpg" class="img-responsive" alt="product 1">
+                                                    <img src="images/banner-left.jpg" class="img-responsive" alt="product 1">
                                                 </a>
                                             </div> 
                                         </ul>
@@ -166,7 +166,7 @@
                                             <li class="dropdown-header">Best Seller</li>  
                                             <div class="item active">
                                                 <a href="#">
-                                                    <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/sid-sweat-red.jpg" class="img-responsive" alt="product 1">
+                                                    <img src="images/sid-sweat-red.jpg" class="img-responsive" alt="product 1">
                                                 </a>
                                             </div>
 
@@ -177,17 +177,17 @@
                                             </li>
                                         </ul>
                                     </li>
-                                </ul>	
+                                </ul>   
                             </li>
 
-                            <li class="dropdown mega-dropdown mega-menu-item">
+                            <li class="dropdown menu-dropdown mega-dropdown mega-menu-item">
                                 <a href="#" class="menu-item">
                                     <span>Blog</span>
 
                                 </a> 
                                 <a href="#" class="opener"></a>
                             </li>
-                            <li class="dropdown mega-dropdown mega-menu-item">
+                            <li class="dropdown menu-dropdown mega-dropdown mega-menu-item">
                                 <a href="#"class="menu-item">
                                     <span>About Us</span>
                                 </a>
@@ -199,73 +199,73 @@
                                         <p>With this theme you can easily create your unique shop, choosing any colors & over 500 Google fonts. </p>
                                     </li>
                                     <li class="col-md-3 col-sm-3 clearfix align-center">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/mic01.png">
+                                        <img src="images/mic01.png">
                                         <h4>Responsive design</h4>
                                         <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
                                     </li>
                                     <li class="col-md-3 col-sm-3 align-center">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/mic02.png">
+                                        <img src="images/mic02.png">
                                         <h4>Responsive design</h4>
                                         <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
                                     </li>
                                     <li class="col-md-3 col-sm-3 align-center">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/mic03.png">
+                                        <img src="images/mic03.png">
                                         <h4>Responsive design</h4>
                                         <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
                                     </li>
                                     <li class="col-md-3 col-sm-3 align-center">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/mic04.png">
+                                        <img src="images/mic04.png">
                                         <h4>Responsive design</h4>
                                         <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
                                     </li>
-                                </ul>	
+                                </ul>   
                             </li>
-                            <li class="dropdown mega-dropdown mega-menu-item">
+                            <li class="dropdown menu-dropdown mega-dropdown mega-menu-item">
                                 <a href="#"class="menu-item">
                                     <span>Brands</span>
                                 </a>
                                 <a href="#" class="opener"></a>
                                 <ul class="container margin-auto dropdown-menu mega-dropdown-menu" >
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/4-manu_alysum.jpg" class="img-responsive">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
                                     </li> 
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/4-manu_alysum.jpg" class="img-responsive">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
                                     </li> 
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/4-manu_alysum.jpg" class="img-responsive">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
                                     </li> 
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/4-manu_alysum.jpg" class="img-responsive">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
                                     </li>  
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/4-manu_alysum.jpg" class="img-responsive">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
                                     </li> 
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/4-manu_alysum.jpg" class="img-responsive">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
                                     </li> 
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/4-manu_alysum.jpg" class="img-responsive">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
                                     </li> 
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/4-manu_alysum.jpg" class="img-responsive">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
                                     </li> 
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/4-manu_alysum.jpg" class="img-responsive">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
                                     </li> 
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/4-manu_alysum.jpg" class="img-responsive">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
                                     </li> 
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/4-manu_alysum.jpg" class="img-responsive">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
                                     </li> 
                                     <li class="col-md-2 col-sm-2 brand">
-                                        <img src="<?php echo T3_TEMPLATE_URL; ?>/images/group_d/4-manu_alysum.jpg" class="img-responsive">
+                                        <img src="images/4-manu_alysum.jpg" class="img-responsive">
                                     </li> 
-                                </ul>	
+                                </ul>   
                             </li>
 
-                            <li class="dropdown mega-dropdown mega-menu-item">
+                            <li class="dropdown menu-dropdown mega-dropdown mega-menu-item">
                                 <a href="#"class="menu-item">
                                     <span>Demos</span>
                                 </a>

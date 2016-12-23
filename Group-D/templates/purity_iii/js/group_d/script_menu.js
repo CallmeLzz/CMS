@@ -20,7 +20,7 @@ $(document).ready(function () {
 
 //    DROPDOWN
     if ($(window).width() > 728) {
-        $(".dropdown").hover(
+        $(".menu-dropdown").hover(
                 function () {
                     $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
                     $(this).toggleClass('open');

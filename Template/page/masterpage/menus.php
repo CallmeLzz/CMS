@@ -7,7 +7,7 @@
                     <div class="mega-menu">
                         <div class="mobileMenuTitle">Menu</div>
                         <ul class="mega-menu-ul">
-                            <li class="dropdown mega-dropdown mega-menu-item mega-active">
+                            <li class="dropdown menu-dropdown mega-dropdown mega-menu-item mega-active">
                                 <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown">
                                     <span>Women</span>
                                 </a>
@@ -96,7 +96,7 @@
                                     </li>
                                 </ul>	
                             </li>
-                            <li class="dropdown mega-dropdown mega-menu-item">
+                            <li class="dropdown menu-dropdown mega-dropdown mega-menu-item">
                                 <a href="#" class="menu-item dropdown-toggle" data-toggle="dropdown">
                                     <span>Men</span>
                                 </a>				
@@ -180,14 +180,14 @@
                                 </ul>	
                             </li>
 
-                            <li class="dropdown mega-dropdown mega-menu-item">
+                            <li class="dropdown menu-dropdown mega-dropdown mega-menu-item">
                                 <a href="#" class="menu-item">
                                     <span>Blog</span>
 
                                 </a> 
                                 <a href="#" class="opener"></a>
                             </li>
-                            <li class="dropdown mega-dropdown mega-menu-item">
+                            <li class="dropdown menu-dropdown mega-dropdown mega-menu-item">
                                 <a href="#"class="menu-item">
                                     <span>About Us</span>
                                 </a>
@@ -220,7 +220,7 @@
                                     </li>
                                 </ul>	
                             </li>
-                            <li class="dropdown mega-dropdown mega-menu-item">
+                            <li class="dropdown menu-dropdown mega-dropdown mega-menu-item">
                                 <a href="#"class="menu-item">
                                     <span>Brands</span>
                                 </a>
@@ -265,7 +265,7 @@
                                 </ul>	
                             </li>
 
-                            <li class="dropdown mega-dropdown mega-menu-item">
+                            <li class="dropdown menu-dropdown mega-dropdown mega-menu-item">
                                 <a href="#"class="menu-item">
                                     <span>Demos</span>
                                 </a>

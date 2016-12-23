@@ -201,3 +201,6 @@ header.type-10 .topheader2 .search .fa-search:hover {
 a {
   text-decoration: none;
 }
+.clear{
+  clear: both;
+}

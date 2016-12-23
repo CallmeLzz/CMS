@@ -1,7 +1,7 @@
 <table class="featured-products-title">
     <tbody>
     <tr>
-        <td class="w50">
+        <td class="w50 left_wing">
             <span class="wing"></span>
         </td>
         <td class="title">
@@ -15,7 +15,7 @@
                 <i class="fa fa-angle-right"></i>
             </div>
         </td>
-        <td class="w50">
+        <td class="w50 right_wing">
             <span class="wing"></span>
         </td>
     </tr>

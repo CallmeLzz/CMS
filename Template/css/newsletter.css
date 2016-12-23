@@ -1,6 +1,7 @@
 #newsletter_block_ext {
   overflow: hidden;
   margin-bottom: 0;
+  padding: 0 25px;
 }
 #newsletter_block_ext .minibutton {
   height: 26px;
@@ -31,17 +32,19 @@
   height: 20px;
   margin-top: 15px;
 }
-#newsletter_block_ext .col.promo:hover .opaque {
-  background: rgba(255,255,255,0.2);
-}
 #newsletter_block_ext .col {
   width: 290px;
   height: 230px;
-  margin-right: 20px;
   border: 1px solid #e0e0e0;
   padding: 2px;
   overflow: hidden;
   position: relative;
+}
+#newsletter_block_ext .col.promo:hover .opaque {
+  background: rgba(255,255,255,0.2);
+}
+#newsletter_block_ext .col.nwltr {
+  margin: 0 11px;
 }
 #newsletter_block_ext .col:hover .opaque {
   background: rgba(255,255,255,0.8);
@@ -50,6 +53,9 @@
   width: 100%;
   padding: 4px;
   border: 1px solid #e0e0e0;
+}
+#newsletter_block_ext .col .content img {
+  width: 100%;
 }
 #newsletter_block_ext .col .opaque {
   width: 100%;

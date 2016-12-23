@@ -1,3 +1,6 @@
+.banner .banner-feauter {
+  margin: 0;
+}
 .banner .banner-feauter img {
   border: 1px solid #e0e0e0;
 }
@@ -18,7 +21,16 @@
   background-color: #e17365;
   transition: all 0.3s ease-in-out;
 }
-.banner .banner-feauter .thumbs-banner img.item {
+.banner .banner-feauter .thumbs-banner {
+  margin-bottom: 30px;
+}
+.banner .banner-feauter .thumbs-banner .block {
+  overflow: hidden;
+  position: relative;
+  max-height: 270px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.banner .banner-feauter .thumbs-banner .block img.item {
   max-width: 100%;
   overflow: visible;
 }

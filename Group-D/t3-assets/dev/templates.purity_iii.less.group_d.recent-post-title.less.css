@@ -1,12 +1,18 @@
 @font-face {
   font-family: LMRoman10Regular;
-  src: url(<?php echo T3_TEMPLATE_URL; ?>/fonts/LMRoman10Regular.otf);
+  src: url(../../templates/purity_iii/less/fonts/LMRoman10Regular.otf);
 }
 .recent-post-title {
   margin-bottom: 30px;
 }
 .recent-post-title .w50 {
   width: 50%;
+}
+.recent-post-title .w50.left_wing {
+  padding-left: 20px;
+}
+.recent-post-title .w50.right_wing {
+  padding-right: 20px;
 }
 .recent-post-title .w50 .wing {
   border: 1px solid #e6e5e5;
